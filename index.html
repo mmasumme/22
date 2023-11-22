@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning and Earning Development Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+         .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        } 
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+        }
+
+        p {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        .input_box {
+            display: flex;
+            flex-direction: column;
+        }
+        legend{
+            text-align: center;
+        }
+        .map-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 450px;
+            border: 0;
+        }
+    </style>
+</head>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learnig and earning devlopment project</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <legend>Please enter relevent information</legend>
+    <div class="container">
+        <form action="" method="post">
+            <p>District</p>
+            <div class="input_box">
+                <label for="District"></label>
+             <select name="" id="">
+                <option value="1">Select One</option>
+                <option value="2">Dhaka</option>
+                <option value="3">Naogaon</option>
+                <option value="4">Mymensing</option>
+                <option value="5">Gazipur</option>
+                <option value="6">Bogra</option>
+                <option value="7">Narayanganj</option>
+                <option value="8">Manikganj</option>
+                <option value="9">Madaripur</option>
+                <option value="10">Kishoreganj</option>
+                <option value="11">Jamalpur</option>
+                <option value="12">Gopalganj</option>
+                <option value="13">Naogaon</option>
+             </select>
+            </div>
+            <p>Course</p>
+            <div class="input_box">
+                <label for="course"></label>
+                <select name="" id="">
+                    <option value="1">Select one</option>
+                    <option value="2">Digital Marketing</option>
+                    <option value="3">Graphics Degain</option>
+                    <option value="4">Web Devlopment</option>
+                </select>
+            </div>
+
+            <div class="input_box">
+                <label for="Student Name">Student Name</label><br>
+                <input type="text" placeholder="Your name" name="Name" required>
+            </div>
+
+            <div class="input_box">
+                <label for="Fothers Name">Fothers Name</label><br>
+                <input type="text" placeholder="Fothers name" name="FothersName" required>
+            </div>
+
+            <div class="input_box">
+                <label for="Mothers Name">Mothers Name</label><br>
+                <input type="text" placeholder="Mothers name" name="MothersName" required>
+            </div>
+            <p>Gender</p>
+            <div class="input_box">
+                <label for="Gender">Female</label>
+                <input type="radio" id="Female" name="Gender" value="Female"><br>
+                <label for="Gender">Male</label>
+                <input type="radio" id="Male" name="Gender" value="Male">
+            </div>
+
+            <p>Physically Handicapped</p>
+            <div class="input_box">
+                <label for="Physically Handicapped">Yes</label>
+                <input type="radio" id="pyes" name="Y" value="Yes"><br>
+                <label for="Physically Handicapped">No</label>
+                <input type="radio" id="pno" name="Y" value="No">
+            </div>
+
+            <div class="input_box">
+                <label for="Email">Email</label><br>
+                <input type="email" placeholder="Your Email" name="email" required>
+                <div class="ege">(e.g: example@mail.com)</div>
+            </div>
+
+            <div class="input_box">
+                <label for="Phone Number">Phone (Must be 11 Digits)*</label><br>
+                <input type="email" placeholder="Your Phone Number" name="email" required>
+                <div class="ege">(e.g:0155123456)</div>
+            </div>
+
+            <p>Identification Type*</p>
+            <div class="input_box">
+                <label for="Identification Type*"></label>
+                <select name="" id="">
+                    <option value="1">Select one</option>
+                    <option value="1">national_id</option>
+                    <option value="1">birth_certificate</option>
+                </select>
+                <div class="fromlevel">Identification No. (Must be 10 digits for new NID or 17 digits for old NID. If your National ID is 13 digits, then please add your birth year with the ID as prefix. Example: 1980XXXXXXXXXXXXX)</div>
+                <input type="text">
+            </div>
+
+            <p>Home District</p>
+            <div class="input_box">
+                <label for="Home District"></label>
+                <select name="" id="">
+                    <option value="1">Select one</option>
+                    <option value="2">Dhaka</option>
+                    <option value="3">Narayanganj</option>
+                    <option value="4">Rangpur</option>
+                    <option value="5">Dhaka</option>
+                    <option value="6">Narayanganj</option>
+                    <option value="7">Rangpur</option>
+                    <option value="8">Dhaka</option>
+                    <option value="9">Narayanganj</option>
+                    <option value="10">Rangpur</option>
+                </select>
+            </div>
+
+            <p>Upazela</p>
+            <div class="input_box">
+                <label for="Upazela"></label>
+                <select name="" id="">
+                    <option value="1">Select one</option><br>
+            </div>
+            <div class="input_box">
+                <label for="Address">Address</label><br>
+                <input type="text" placeholder="Address" name="Address" required>
+            </div>
+
+            <div class="input_box">
+                <label for="Post Office">Post Office</label><br>
+                <input type="text">
+            </div>
+
+            <p>Educational Qualification* </p>
+            <div class="input_box">
+                <label for="Educational Qualification"></label>
+                <select name="" id="">
+                    <option value="1">Select one</option>
+                    <option value="2">SSC</option>
+                    <option value="3">HSC</option>
+                    <option value="4">Bachelor</option>
+                    <option value="4">Phd</option>
+                </select>
+            </div>
+
+            <p>Have any computer?</p>
+            <div class="input_box">
+                <label for="computer">Yes</label>
+                <input type="radio" id="computer" name="computer" value="Yes"><br>
+                <label for="computer">No</label>
+                <input type="radio" id="computer" name="computer" value="No">
+            </div>
+
+            <p>Phothograph</p>
+            <div class="input_box">
+                <input type="file">
+                <div class="fromlevel">(File type must be jpg or jpeg or png. Maximum file size 2 mb.).</div>
+            </div>
+
+            <p>Signature*</p>
+            <div class="input_box">
+                <input type="file">
+                <div class="fromlevel">(File type must be jpg or jpeg or png. Maximum file size 2 mb.).</div>
+            </div>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.542107695167!2d90.60226742569942!3d23.656563942371648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x37544df6137c52ed%3A0xab8461e4c35b2c04!2zUGFuYW0gQ2l0eSAo4Kaq4Ka-4Kao4Ka-4KauIOCmqOCml-CmsCkgT2ZmaWNl!5e0!3m2!1sbn!2sbd!4v1700683781416!5m2!1sbn!2sbd" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</body>
+</html>
